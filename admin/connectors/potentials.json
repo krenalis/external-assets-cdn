@@ -1,0 +1,169 @@
+{
+    "connectors": [
+        {
+            "code": "salesforce",
+            "label": "Salesforce",
+            "categories": [
+                "SaaS"
+            ],
+            "connectorType": "Application",
+            "asSource": {
+                "description": "Import users from Salesforce",
+                "implemented": false,
+                "comingSoon": false
+            },
+            "asDestination": {
+                "description": "Export users to Salesforce",
+                "implemented": false,
+                "comingSoon": false
+            }
+        },
+        {
+            "code": "zendesk",
+            "label": "ZenDesk",
+            "categories": [
+                "SaaS"
+            ],
+            "connectorType": "Application",
+            "asSource": {
+                "description": "Import users from ZenDesk",
+                "implemented": false,
+                "comingSoon": false
+            },
+            "asDestination": {
+                "description": "Export users to ZenDesk",
+                "implemented": false,
+                "comingSoon": false
+            }
+        },
+        {
+            "code": "intercom",
+            "label": "Intercom",
+            "categories": [
+                "SaaS"
+            ],
+            "connectorType": "Application",
+            "asSource": {
+                "description": "Import contacts as users from Intercom",
+                "implemented": false,
+                "comingSoon": false
+            },
+            "asDestination": {
+                "description": "Export users as contacts to Intercom",
+                "implemented": false,
+                "comingSoon": false
+            }
+        },
+        {
+            "code": "helpscout",
+            "label": "HelpScout",
+            "categories": [
+                "SaaS"
+            ],
+            "connectorType": "Application",
+            "asSource": {
+                "description": "Import customers as users from HelpScout",
+                "implemented": false,
+                "comingSoon": false
+            },
+            "asDestination": {
+                "description": "Export users as customers to HelpScout",
+                "implemented": false,
+                "comingSoon": false
+            }
+        },
+        {
+            "code": "sql-server",
+            "label": "SQL Server",
+            "categories": [
+                "Database"
+            ],
+            "connectorType": "Database",
+            "asSource": {
+                "description": "Import users from SQL Server",
+                "implemented": false,
+                "comingSoon": false
+            },
+            "asDestination": {
+                "description": "Export users to SQL Server",
+                "implemented": false,
+                "comingSoon": false
+            }
+        },
+        {
+            "code": "bigquery",
+            "label": "BigQuery",
+            "categories": [
+                "Database"
+            ],
+            "connectorType": "Database",
+            "asSource": {
+                "description": "Import users from BigQuery",
+                "implemented": false,
+                "comingSoon": false
+            },
+            "asDestination": {
+                "description": "Export users to BigQuery",
+                "implemented": false,
+                "comingSoon": false
+            }
+        },
+        {
+            "code": "shopify",
+            "label": "Shopify",
+            "categories": [
+                "SaaS"
+            ],
+            "connectorType": "Application",
+            "asSource": {
+                "description": "Import customers as users from Shopify",
+                "implemented": false,
+                "comingSoon": false
+            },
+            "asDestination": {
+                "description": "Export users as customers to Shopify",
+                "implemented": false,
+                "comingSoon": false
+            }
+        },
+        {
+            "code": "kafka",
+            "label": "Kafka",
+            "categories": [
+                "Message Broker"
+            ],
+            "connectorType": "MessageBroker",
+            "asSource": {
+                "description": "Import events and users from Kafka",
+                "implemented": false,
+                "comingSoon": true
+            }
+        },
+        {
+            "code": "rabbitmq",
+            "label": "RabbitMQ",
+            "categories": [
+                "Message Broker"
+            ],
+            "connectorType": "MessageBroker",
+            "asSource": {
+                "description": "Import events and users from RabbitMQ",
+                "implemented": false,
+                "comingSoon": true
+            }
+        },
+        {
+            "code": "amplitude",
+            "label": "Amplitude",
+            "categories": [
+                "SaaS"
+            ],
+            "connectorType": "Application",
+            "asDestination": {
+                "description": "Send events to Amplitude",
+                "implemented": false,
+                "comingSoon": false
+            }
+        }
+    ]
+}
